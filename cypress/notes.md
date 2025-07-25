@@ -43,3 +43,27 @@
 - Configure the type of testing
 - Configure browser and spec
 - Select the spec the test runs
+
+## Identify web elements in Cypress
+- Basic CSS selector syntax
+    - Syntax: ```tagName[AttributeName="AttributeValue"]```
+    - Eg: ```input[id="first_name"]```
+- CSS Selector: Select by Id
+    - Syntax: ```#elementId```
+    - Syntax: ```tagName#elementId```
+- CSS Selector: Select by class
+    - Syntax: ```.elementClass``
+    - Syntax: ```tagName.elementClass```
+- Advance CSS selectors
+    - Syntax: ```tagName.classValue[AtttributeName="AttributeValue"]```
+    - Syntax: ```tagName.idValue[AttributeName="AttributeValue"]```
+- CSS Selector -sub-string
+    - ***Match Prefix of text :*** ```input[name^="country e"]```
+    - ***Match Suffix of text :*** ```input[name$="y client"]```
+    - ***Match Substring of text :*** ```input[name*="try_cl"]```
+- Finding Child or Subchild
+    - Direct Child (>):
+        Syntax: ```tagName[AttributeName="AttributeValue"] > tagName[AttributeName="AttributeValue"]```
+    - Child or subchild ( ):
+        Syntax: ```tagName[AttributeName="AttributeValue"] tagName[AttributeName="AttributeValue"]```
+
