@@ -4,5 +4,5 @@
 - source .venv/bin/activate
 - which python
 - pip install selenium
-- pip install pytest
+<!-- - pip install pytest -->
 - pytest -m selenium

@@ -1,5 +1,4 @@
 from selenium import webdriver
-import time
 
 # This will automatically download the driver via Selenium Manager (v4.6+)
 driver = webdriver.Safari()
